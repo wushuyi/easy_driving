@@ -1,0 +1,101 @@
+/* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
+body {font: 13px Helmet, Freesans, sans-serif;}
+
+/* Using local fonts? Check out Font Squirrel's webfont generator: http://www.fontsquirrel.com/tools/webfont-generator */
+
+/* We like off-black for text. */
+body, select, input, textarea {color: #333;}
+
+a {color: #03f;}
+a:hover {color: #69f;}
+
+/* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
+::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
+::selection {background: #fcd700; color: #fff; text-shadow: none;} 
+
+/*	j.mp/webkit-tap-highlight-color */
+a:link {-webkit-tap-highlight-color: #fcd700;} 
+
+ins {background-color: #fcd700; color: #000; text-decoration: none;}
+mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+
+/* Mozilla dosen't style place holders by default */
+input:-moz-placeholder { color:#a9a9a9; }
+textarea:-moz-placeholder { color:#a9a9a9; }
+
+.wrapper{
+	width: 640px;
+	min-height: 800px;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 30px;
+}
+.applist{
+	width: 640px;
+	position: relative;
+}
+.applist a{
+	color: #0978c4;
+	text-decoration: none;
+}
+.applist ul{
+	width: 640px;
+	display: inline-block;
+}
+.applist li{
+	width: 640px;
+	min-height: 140px;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 30px;
+}
+.applist li:after{
+	content: '';
+	display: block;
+	bottom: 0px;
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	background-color: #E5E7E9;
+}
+.applist .icon{
+	width: 114px;
+	height: 100%;
+	text-align: center;
+	float: left;
+}
+.applist .icon img{
+	width: 90px;
+	height: 90px;
+	margin-top: 30px;
+}
+.applist .cent{
+	width: 526px;
+	float: right;
+}
+.applist .title{
+	padding-top: 30px;
+}
+.applist .title h2{
+	font-size: 32px;
+	font-weight: bold;
+}
+.applist .info{
+	color: #889db6;
+	padding-top: 20px;
+}
+.applist .info span{
+	padding-right: 16px;
+	font-size: 22px;
+}
+.applist .pcuser{
+	padding-top: 20px;
+	font-size: 22px;
+}
+.botton{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	font-size: 14px;
+}

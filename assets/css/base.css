@@ -1,0 +1,903 @@
+HTML {
+	
+}
+*:focus {
+	OUTLINE-STYLE: none
+}
+BODY {
+	TEXT-ALIGN: center; FONT-FAMILY: Tahoma , Arial, SimSun , sans-serif; BACKGROUND: url(images/css/bg.png) #f0f2f4 repeat-x 0px 0px; COLOR: #6a6a6a; FONT-SIZE: 12px
+}
+A {
+	COLOR: #0978c4; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #0978c4; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #0978c4; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #c92c21
+}
+A:active {
+	COLOR: #c92c21
+}
+.wrapper {
+	TEXT-ALIGN: center; MARGIN: 0px auto; WIDTH: 100%; MAX-WIDTH: 1140px
+}
+#header {
+	POSITION: relative; MARGIN: 0px auto; WIDTH: 980px; HEIGHT: 100px
+}
+#logo {
+	POSITION: absolute; WIDTH: 256px; HEIGHT: 60px; TOP: 30px; LEFT: 15px
+}
+#logo A {
+	WIDTH: 256px; DISPLAY: block; BACKGROUND: url(images/css/logo.png); HEIGHT: 60px; OVERFLOW: hidden
+}
+#logo A SPAN {
+	TEXT-INDENT: -999px; WIDTH: 256px; DISPLAY: block; BACKGROUND: url(images/css/logo-hover.png) no-repeat 0px 0px; HEIGHT: 60px; OVERFLOW: hidden; opacity: 0; -khtml-opacity: 0; -moz-opacity: 0
+}
+#nav {
+	MARGIN: 0px auto; WIDTH: 980px; HEIGHT: 97px
+}
+#nav .nl {
+	WIDTH: 15px; BACKGROUND: url(images/css/nav-left.png) no-repeat; FLOAT: left; HEIGHT: 97px
+}
+#nav .nr {
+	WIDTH: 15px; BACKGROUND: url(images/css/nav-right.png) no-repeat; FLOAT: left; HEIGHT: 97px
+}
+#nav .nm {
+	POSITION: relative; WIDTH: 950px; BACKGROUND: url(images/css/nav-bg.gif); FLOAT: left; HEIGHT: 97px; OVERFLOW: hidden
+}
+#menu {
+	POSITION: absolute; TOP: 0px; LEFT: 0px
+}
+#menu LI {
+	MARGIN: 15px 20px 0px 0px; DISPLAY: block; FLOAT: left
+}
+#menu LI A {
+	TEXT-INDENT: -999px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px -29px; HEIGHT: 29px; OVERFLOW: hidden
+}
+#menu LI A:hover {
+	BACKGROUND-POSITION: 0px -58px
+}
+#menu .all {
+	WIDTH: 118px
+}
+#menu .all A {
+	WIDTH: 118px
+}
+#menu .all A {
+	BACKGROUND-IMAGE: url(images/css/type-all.gif)
+}
+#menu .iphone {
+	WIDTH: 84px
+}
+#menu .iphone A {
+	WIDTH: 84px
+}
+#menu .iphone A {
+	BACKGROUND-IMAGE: url(images/css/type-iphone.gif)
+}
+#menu .ipad {
+	WIDTH: 72px
+}
+#menu .ipad A {
+	WIDTH: 72px
+}
+#menu .ipad A {
+	BACKGROUND-IMAGE: url(images/css/type-ipad.gif)
+}
+#menu .both {
+	WIDTH: 83px
+}
+#menu .both A {
+	WIDTH: 83px
+}
+#menu .both A {
+	BACKGROUND-IMAGE: url(images/css/type-both.gif)
+}
+#menu .select {
+	BACKGROUND-POSITION: 0px 0px
+}
+#search {
+	POSITION: absolute; HEIGHT: 29px; RIGHT: 0px; TOP: 13px
+}
+#search .search-input {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 47px; WIDTH: 125px; PADDING-RIGHT: 5px; BACKGROUND: url(images/css/search-input.gif); FLOAT: left; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 27px; FONT-SIZE: 12px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 2px
+}
+#search .search-input:focus {
+	BACKGROUND-POSITION: 0px -29px
+}
+#search .search-btn {
+	TEXT-INDENT: -999px; WIDTH: 40px; FLOAT: left; HEIGHT: 29px; OVERFLOW: hidden
+}
+#search .search-btn A {
+	WIDTH: 40px; DISPLAY: block; BACKGROUND: url(images/css/search-btn.gif); HEIGHT: 29px
+}
+#search .search-btn A:hover {
+	BACKGROUND-POSITION: 0px -29px
+}
+#submenu {
+	POSITION: absolute; PADDING-TOP: 5px; TOP: 47px; LEFT: 0px
+}
+#class {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(images/css/class-split.gif) no-repeat right 0px; FLOAT: left; MARGIN-RIGHT: 10px; PADDING-TOP: 10px
+}
+#class LI {
+	MARGIN: 0px 20px 0px 0px; DISPLAY: block; FLOAT: left
+}
+#class LI A {
+	TEXT-INDENT: -999px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px -54px; HEIGHT: 27px; OVERFLOW: hidden
+}
+#class LI A:hover {
+	BACKGROUND-POSITION: 0px 0px
+}
+#class .select {
+	BACKGROUND-POSITION: 0px -27px
+}
+#class .recommend {
+	WIDTH: 88px
+}
+#class .recommend A {
+	WIDTH: 88px
+}
+#class .recommend A {
+	BACKGROUND-IMAGE: url(images/css/class-recommend.gif)
+}
+#class .all {
+	WIDTH: 63px
+}
+#class .all A {
+	WIDTH: 63px
+}
+#class .games {
+	WIDTH: 63px
+}
+#class .games A {
+	WIDTH: 63px
+}
+#class .apps {
+	WIDTH: 63px
+}
+#class .apps A {
+	WIDTH: 63px
+}
+#class .all A {
+	BACKGROUND-IMAGE: url(images/css/class-all.gif)
+}
+#class .games A {
+	BACKGROUND-IMAGE: url(images/css/class-games.gif)
+}
+#class .apps A {
+	BACKGROUND-IMAGE: url(images/css/class-apps.gif)
+}
+#class .games-l A {
+	POSITION: relative; WIDTH: 179px
+}
+#class .apps-l A {
+	POSITION: relative; WIDTH: 179px
+}
+#class .games-l A {
+	BACKGROUND-IMAGE: url(images/css/class-games-l.gif)
+}
+#class .apps-l A {
+	BACKGROUND-IMAGE: url(images/css/class-apps-l.gif)
+}
+#class .games-l FORM {
+	POSITION: absolute; MARGIN-LEFT: 65px; TOP: 18px; _top: 17px
+}
+#class .apps-l FORM {
+	POSITION: absolute; MARGIN-LEFT: 65px; TOP: 18px; _top: 17px
+}
+#class .games-l FORM SELECT {
+	WIDTH: 110px; HEIGHT: 20px; OVERFLOW: hidden
+}
+#class .apps-l FORM SELECT {
+	WIDTH: 110px; HEIGHT: 20px; OVERFLOW: hidden
+}
+#price {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(images/css/class-split.gif) no-repeat right 0px; FLOAT: left; MARGIN-RIGHT: 10px; PADDING-TOP: 10px
+}
+#price LI {
+	MARGIN: 0px 20px 0px 0px; DISPLAY: block; FLOAT: left
+}
+#price LI A {
+	TEXT-INDENT: -999px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px -54px; HEIGHT: 27px; OVERFLOW: hidden
+}
+#price LI A:hover {
+	BACKGROUND-POSITION: 0px 0px
+}
+#price .select {
+	BACKGROUND-POSITION: 0px -27px
+}
+#price .all {
+	WIDTH: 63px
+}
+#price .all A {
+	WIDTH: 63px
+}
+#price .free {
+	WIDTH: 63px
+}
+#price .free A {
+	WIDTH: 63px
+}
+#price .low {
+	WIDTH: 63px
+}
+#price .low A {
+	WIDTH: 63px
+}
+#price .all A {
+	BACKGROUND-IMAGE: url(images/css/class-all.gif)
+}
+#price .free A {
+	BACKGROUND-IMAGE: url(images/css/class-free.gif)
+}
+#price .low A {
+	BACKGROUND-IMAGE: url(images/css/class-low.gif)
+}
+#pn {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(images/css/class-split.gif) no-repeat right 0px; FLOAT: left; MARGIN-RIGHT: 10px; PADDING-TOP: 10px
+}
+#pn LI {
+	MARGIN: 0px 20px 0px 0px; DISPLAY: block; FLOAT: left
+}
+#pn LI A {
+	TEXT-INDENT: -999px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px -54px; HEIGHT: 27px; OVERFLOW: hidden
+}
+#pn LI A:hover {
+	BACKGROUND-POSITION: 0px 0px
+}
+#pn .select {
+	BACKGROUND-POSITION: 0px -27px
+}
+#pn .all {
+	WIDTH: 63px
+}
+#pn .all A {
+	WIDTH: 63px
+}
+#pn .reduction {
+	WIDTH: 63px
+}
+#pn .reduction A {
+	WIDTH: 63px
+}
+#pn .all A {
+	BACKGROUND-IMAGE: url(images/css/class-all.gif)
+}
+#pn .reduction A {
+	BACKGROUND-IMAGE: url(images/css/class-reduction.gif)
+}
+.content-wrapper {
+	MARGIN: 20px auto; WIDTH: 980px
+}
+.content-top {
+	BORDER-BOTTOM: #e5e7e9 1px; BORDER-LEFT: #e5e7e9 1px solid; WIDTH: 978px; BACKGROUND: url(images/css/content-split.gif) #f9f9f9 repeat-y 641px 0px; HEIGHT: 48px; BORDER-TOP: #e5e7e9 1px solid; BORDER-RIGHT: #e5e7e9 1px solid; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -moz-border-radius-bottomleft: 0; -moz-border-radius-bottomright: 0; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-left-radius: 0; -webkit-border-bottom-right-radius: 0; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 0; border-bottom-left-radius: 0
+}
+#content {
+	BORDER-BOTTOM: #e5e7e9 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #e5e7e9 1px solid; MIN-HEIGHT: 1140px; WIDTH: 978px; BACKGROUND: url(images/css/content-split.gif) #fff repeat-y 641px 0px; CLEAR: both; BORDER-TOP: #e5e7e9 1px solid; BORDER-RIGHT: #e5e7e9 1px solid
+}
+.main {
+	WIDTH: 900px; FLOAT: left
+}
+.ctl {
+	WIDTH: 640px; FLOAT: left
+}
+.ctl {
+	HEIGHT: 46px
+}
+.side {
+	WIDTH: 336px; FLOAT: right
+}
+.ctr {
+	WIDTH: 336px; FLOAT: right
+}
+.ctr .ctr-wrap {
+	POSITION: relative; PADDING-BOTTOM: 12px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; PADDING-TOP: 12px
+}
+#myinfo {
+	BORDER-BOTTOM: #eaeaeb 1px solid; PADDING-BOTTOM: 15px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; BACKGROUND: #f9f9f9; PADDING-TOP: 15px
+}
+#myinfo SPAN {
+	MARGIN: 2px 0px 0px; WIDTH: 50px; DISPLAY: inline-block; BACKGROUND: url(images/css/avatar.gif) no-repeat; FLOAT: left; HEIGHT: 50px
+}
+#myinfo SPAN B {
+	WIDTH: 50px; DISPLAY: inline-block; BACKGROUND: no-repeat 50% 50%; HEIGHT: 50px
+}
+#myinfo EM {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 15px; FONT-STYLE: normal; PADDING-LEFT: 15px; TEXT-OVERFLOW: ellipsis; PADDING-RIGHT: 4px; DISPLAY: block; MAX-WIDTH: 200px; WHITE-SPACE: nowrap; HEIGHT: 15px; OVERFLOW: hidden; PADDING-TOP: 7px
+}
+#myapp {
+	WIDTH: 84px; FLOAT: right; HEIGHT: 27px; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+#shareapp {
+	WIDTH: 84px; FLOAT: right; HEIGHT: 27px; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+#loginapp {
+	WIDTH: 84px; FLOAT: right; HEIGHT: 27px; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+#myapp A {
+	TEXT-INDENT: -999px; WIDTH: 84px; DISPLAY: block; HEIGHT: 27px
+}
+#shareapp A {
+	TEXT-INDENT: -999px; WIDTH: 84px; DISPLAY: block; HEIGHT: 27px
+}
+#loginapp A {
+	TEXT-INDENT: -999px; WIDTH: 84px; DISPLAY: block; HEIGHT: 27px
+}
+#myapp A {
+	BACKGROUND: url(images/css/myapp-btn.gif) 0px -27px
+}
+#shareapp A {
+	BACKGROUND: url(images/css/myapp-btn.gif) 0px 0px
+}
+#loginapp A {
+	BACKGROUND: url(images/css/myapp-btn.gif) 0px -54px
+}
+#login-panel {
+	Z-INDEX: 9999; POSITION: absolute; TEXT-ALIGN: left; WIDTH: 336px; BACKGROUND: url(images/css/login-bg.gif) #f9f9f9 no-repeat 0px 0px; HEIGHT: 0px; OVERFLOW: hidden; TOP: 49px; LEFT: 0px
+}
+#login-qq {
+	BACKGROUND: url(images/css/login-qq-bg.gif) no-repeat 3px center
+}
+#login-sina {
+	BACKGROUND: url(images/css/login-sina-bg.gif) no-repeat 3px center
+}
+#login-qq {
+	MARGIN: 60px 10px 0px 20px; WIDTH: 129px; FLOAT: left; HEIGHT: 39px
+}
+#login-sina {
+	MARGIN: 60px 10px 0px 20px; WIDTH: 129px; FLOAT: left; HEIGHT: 39px
+}
+#login-qq A {
+	LINE-HEIGHT: 39px; PADDING-LEFT: 42px; DISPLAY: block; HEIGHT: 39px
+}
+#login-sina A {
+	LINE-HEIGHT: 39px; PADDING-LEFT: 42px; DISPLAY: block; HEIGHT: 39px
+}
+#login-qq A:hover {
+	BORDER-BOTTOM: #e0e0e0 1px solid; BORDER-LEFT: #e0e0e0 1px solid; LINE-HEIGHT: 37px; PADDING-LEFT: 41px; WIDTH: 88px; HEIGHT: 37px; COLOR: #000; BORDER-TOP: #e0e0e0 1px solid; BORDER-RIGHT: #e0e0e0 1px solid; -moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px
+}
+#login-sina A:hover {
+	BORDER-BOTTOM: #e0e0e0 1px solid; BORDER-LEFT: #e0e0e0 1px solid; LINE-HEIGHT: 37px; PADDING-LEFT: 41px; WIDTH: 88px; HEIGHT: 37px; COLOR: #000; BORDER-TOP: #e0e0e0 1px solid; BORDER-RIGHT: #e0e0e0 1px solid; -moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px
+}
+.c {
+	BORDER-BOTTOM: #e5e7e9 1px solid; PADDING-BOTTOM: 15px; MARGIN: 0px 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 30px
+}
+.cp {
+	POSITION: relative; BORDER-LEFT: #e6e6e8 1px solid; WIDTH: 80px; FONT-FAMILY: Î¢ÈíÑÅºÚ; FLOAT: right; HEIGHT: 143px
+}
+.cw {
+	FLOAT: left
+}
+.cl {
+	WIDTH: 83px; FLOAT: left
+}
+.cr {
+	WIDTH: 750px; FLOAT: left
+}
+.op {
+	POSITION: absolute; TEXT-ALIGN: center; WIDTH: 90px; BACKGROUND: url(images/css/del-line.png) no-repeat center center; COLOR: #555; FONT-SIZE: 18px; TOP: 20px; LEFT: 5px
+}
+.np {
+	POSITION: absolute; TEXT-ALIGN: center; WIDTH: 90px; COLOR: #000; FONT-SIZE: 28px; TOP: 50px; LEFT: 5px
+}
+.np SMALL {
+	FONT-SIZE: 18px
+}
+.buy {
+	POSITION: absolute; WIDTH: 57px; HEIGHT: 25px; OVERFLOW: hidden; TOP: 90px; LEFT: 23px
+}
+.buy A {
+	TEXT-INDENT: -999px; WIDTH: 57px; DISPLAY: block; BACKGROUND: url(images/css/btn-buy.gif) 0px -25px; HEIGHT: 25px; OVERFLOW: hidden
+}
+.buy A:hover {
+	BACKGROUND-POSITION: 0px 0px
+}
+.cr H2 {
+	TEXT-OVERFLOW: ellipsis; FONT-FAMILY: Î¢ÈíÑÅºÚ; WHITE-SPACE: nowrap; FONT-SIZE: 16px; OVERFLOW: hidden
+}
+.cr H2 A {
+	
+}
+.cr H2 SPAN {
+	COLOR: #666; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.ct {
+	
+}
+.ct UL {
+	COLOR: #9d9d9d
+}
+.ct LI {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 2em; BACKGROUND: url(images/css/li-point.gif) no-repeat 0px center; FLOAT: left; PADDING-TOP: 15px
+}
+.cc {
+	PADDING-BOTTOM: 1px; LINE-HEIGHT: 2em; TEXT-INDENT: 0em;
+}
+.cb {
+	POSITION: relative
+}
+.cu {
+	MARGIN: 9px 20px 0px 0px; FLOAT: left; COLOR: #9d9d9d
+}
+.ct {
+	COLOR: #889db6
+}
+.cd {
+	MARGIN: 9px 20px 0px; FLOAT: right; COLOR: #9d9d9d
+}
+.cs {
+	MARGIN-TOP: 6px; WIDTH: 87px; FLOAT: right
+}
+.st {
+	WIDTH: 87px; BACKGROUND: url(images/css/star.gif) 0px -75px; HEIGHT: 15px
+}
+.s0 {
+	BACKGROUND-POSITION: 0px -75px
+}
+.s1 {
+	BACKGROUND-POSITION: 0px -60px
+}
+.s2 {
+	BACKGROUND-POSITION: 0px -45px
+}
+.s3 {
+	BACKGROUND-POSITION: 0px -30px
+}
+.s4 {
+	BACKGROUND-POSITION: 0px -15px
+}
+.s5 {
+	BACKGROUND-POSITION: 0px 0px
+}
+.i-m {
+	POSITION: relative; WIDTH: 59px; HEIGHT: 60px
+}
+.i-m .mask A {
+	POSITION: absolute; WIDTH: 59px; DISPLAY: block; BACKGROUND: url(images/css/icon-m-mask.png); HEIGHT: 60px
+}
+.i-m .mask A:hover {
+	BACKGROUND-POSITION: 0px -60px
+}
+.i-m IMG {
+	WIDTH: 59px; HEIGHT: 59px
+}
+.i-type {
+	MARGIN-TOP: 10px
+}
+.t-all {
+	WIDTH: 58px; BACKGROUND: url(images/css/icon-all-type.gif); HEIGHT: 17px; OVERFLOW: hidden
+}
+.t-all A {
+	TEXT-INDENT: -999px; WIDTH: 58px; DISPLAY: block; HEIGHT: 17px; OVERFLOW: hidden
+}
+.t-iphone {
+	BACKGROUND-POSITION: 0px 0px
+}
+.t-ipad {
+	BACKGROUND-POSITION: 0px -17px
+}
+.t-both {
+	BACKGROUND-POSITION: 0px -34px
+}
+.s-link {
+	PADDING-BOTTOM: 30px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; PADDING-TOP: 30px
+}
+.s-link IMG {
+	WIDTH: 277px; HEIGHT: 98px
+}
+.side-title {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-LEFT: 18px; WIDTH: 80px; PADDING-RIGHT: 18px; BACKGROUND: url(images/css/title-bg.gif) no-repeat right 0px; HEIGHT: 24px; COLOR: #fff; MARGIN-LEFT: 1px; FONT-WEIGHT: bold; PADDING-TOP: 0px; text-shadow: 0 -1px 0 #000
+}
+.rank {
+	
+}
+.rank UL {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 0px
+}
+.rank LI {
+	BORDER-BOTTOM: #e6e6e8 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; HEIGHT: 36px; PADDING-TOP: 5px
+}
+.rank LI IMG {
+	WIDTH: 34px; BACKGROUND: #333; FLOAT: left; HEIGHT: 34px; -moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0 2px 2px #333; -webkit-box-shadow: 0 2px 2px #333; box-shadow: 0 2px 2px #333
+}
+.rank LI IMG:hover {
+	-moz-box-shadow: 0 0 5px #06C; -webkit-box-shadow: 0 0 5px #06C; box-shadow: 0 0 5px #06C
+}
+.rank LI EM {
+	WIDTH: 20px; FONT-FAMILY: Î¢ÈíÑÅºÚ; FLOAT: right; COLOR: #9a9a9a; FONT-SIZE: 18px; PADDING-TOP: 15px
+}
+.rank LI EM.top {
+	COLOR: #c82a20; FONT-SIZE: 24px; PADDING-TOP: 8px
+}
+.rank LI H3 {
+	LINE-HEIGHT: 18px; PADDING-LEFT: 10px; WIDTH: 200px; FLOAT: left; HEIGHT: 34px; OVERFLOW: hidden
+}
+.rank LI H3 A {
+	DISPLAY: block; COLOR: #3a3d3f
+}
+.rank LI H3 SPAN {
+	WIDTH: 200px; TEXT-OVERFLOW: ellipsis; DISPLAY: block; WHITE-SPACE: nowrap; COLOR: #bababa; OVERFLOW: hidden; FONT-WEIGHT: normal
+}
+.rank LI H3 A:hover {
+	COLOR: #c82a20
+}
+.rank LI H3 A:hover SPAN {
+	COLOR: #333
+}
+.news {
+	
+}
+.news UL {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 0px
+}
+.news LI {
+	BORDER-BOTTOM: #e6e6e8 1px solid; PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 15px
+}
+.news LI H3 {
+	WIDTH: 277px; TEXT-OVERFLOW: ellipsis; WHITE-SPACE: nowrap; HEIGHT: 25px; OVERFLOW: hidden
+}
+.news LI H3 A {
+	COLOR: #000
+}
+.news LI H3 A:visited {
+	COLOR: #000
+}
+.news LI H3 A:hover {
+	COLOR: #c92c21
+}
+A:active {
+	COLOR: #c92c21
+}
+.news LI P {
+	LINE-HEIGHT: 1.8em
+}
+.ec {
+	PADDING-BOTTOM: 15px; MARGIN: 0px 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 30px
+}
+.ecl {
+	WIDTH: 132px; FLOAT: left
+}
+.ecr {
+	WIDTH: 350px; FLOAT: left
+}
+.ecr H1 {
+	FONT-FAMILY: Î¢ÈíÑÅºÚ; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.ecr H1 A {
+	
+}
+.ecr H1 SPAN {
+	PADDING-BOTTOM: 3px; WIDTH: 445px; TEXT-OVERFLOW: ellipsis; DISPLAY: block; COLOR: #c4c4c4; FONT-SIZE: 12px; OVERFLOW: hidden; FONT-WEIGHT: normal
+}
+.ecr H1 EM {
+	FONT-STYLE: normal; WIDTH: 445px; TEXT-OVERFLOW: ellipsis; DISPLAY: block; OVERFLOW: hidden
+}
+.ecr H2 {
+	FONT-FAMILY: Î¢ÈíÑÅºÚ; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.ecr H2 A {
+	
+}
+.ecr H2 SPAN {
+	PADDING-BOTTOM: 3px; WIDTH: 445px; TEXT-OVERFLOW: ellipsis; DISPLAY: block; COLOR: #c4c4c4; FONT-SIZE: 12px; OVERFLOW: hidden; FONT-WEIGHT: normal; PADDING-TOP: 10px
+}
+.ecl .i-type {
+	MARGIN-LEFT: 15px
+}
+.ctag {
+	POSITION: relative; PADDING-BOTTOM: 15px
+}
+.i-l {
+	POSITION: relative; WIDTH: 102px; HEIGHT: 103px
+}
+.i-l .mask {
+	POSITION: absolute; WIDTH: 102px; DISPLAY: block; BACKGROUND: url(images/css/icon-l-mask.png); HEIGHT: 103px
+}
+.i-l IMG {
+	WIDTH: 102px; HEIGHT: 102px
+}
+.i-l .mask A {
+	WIDTH: 102px; DISPLAY: block; HEIGHT: 103px
+}
+.ecd {
+	WIDTH: 94px; FLOAT: left; HEIGHT: 32px; MARGIN-LEFT: -3px; OVERFLOW: hidden
+}
+.ecd A {
+	TEXT-INDENT: -999px; WIDTH: 94px; DISPLAY: block; BACKGROUND: url(images/css/btn-download.gif); HEIGHT: 32px; OVERFLOW: hidden
+}
+.ecd A:hover {
+	BACKGROUND-POSITION: 0px -32px
+}
+.sc {
+	BORDER-BOTTOM: #e5e7e9 1px solid; PADDING-BOTTOM: 10px; MARGIN: 0px 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 20px
+}
+.scl {
+	WIDTH: 70px; FLOAT: left
+}
+.scr {
+	WIDTH: 205px; FLOAT: right
+}
+.scr H2 {
+	FONT-FAMILY: Î¢ÈíÑÅºÚ; FONT-SIZE: 14px
+}
+.scr H2 A {
+	
+}
+.scr H2 SPAN {
+	PADDING-BOTTOM: 5px; MARGIN-TOP: 8px; WIDTH: 205px; TEXT-OVERFLOW: ellipsis; DISPLAY: block; WHITE-SPACE: nowrap; COLOR: #7d7d7d; FONT-SIZE: 12px; OVERFLOW: hidden; FONT-WEIGHT: normal
+}
+.sct UL {
+	COLOR: #9d9d9d; PADDING-TOP: 8px
+}
+.sct LI {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 2em; BACKGROUND: url(images/css/li-point.gif) no-repeat 0px center; FLOAT: left; PADDING-TOP: 5px
+}
+.tab {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; BACKGROUND: url(images/css/tab-bg.gif) repeat-x 0px bottom; HEIGHT: 42px; PADDING-TOP: 0px
+}
+.tab LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 48px; WIDTH: 90px; FLOAT: left; HEIGHT: 42px; FONT-SIZE: 14px
+}
+.tab LI.select {
+	BACKGROUND: url(images/css/btn-tab.gif); FONT-WEIGHT: bold
+}
+.tab LI.select A {
+	COLOR: #000
+}
+.tab LI SPAN {
+	PADDING-LEFT: 3px; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.content {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; COLOR: #4d4d4d; FONT-SIZE: 14px; PADDING-TOP: 20px
+}
+#intro {
+	LINE-HEIGHT: 1.8em
+}
+#intro P {
+	TEXT-INDENT: 2em; MARGIN-BOTTOM: 15px
+}
+#dllist {
+	
+}
+#dllist .ver {
+	BORDER-BOTTOM: #6f777f 2px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; COLOR: #c7261d; FONT-SIZE: 12px; PADDING-TOP: 8px
+}
+#dllist .ver H2 {
+	COLOR: #000; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+#dllist UL {
+	MARGIN-BOTTOM: 20px
+}
+#dllist LI:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+* + HTML #dllist LI {
+	DISPLAY: inline-block
+}
+* HTML #dllist LI {
+	HEIGHT: 1%
+}
+#dllist LI {
+	BORDER-BOTTOM: #d8dadc 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; CLEAR: both; FONT-SIZE: 12px; PADDING-TOP: 8px
+}
+#dllist LI:hover {
+	BACKGROUND: #f9f9ed
+}
+#dllist LI .dlbox A {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 6px; PADDING-LEFT: 8px; WIDTH: 60px; PADDING-RIGHT: 8px; DISPLAY: block; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 6px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px
+}
+#dllist LI .price A {
+	BACKGROUND: #0080ff; COLOR: #e9e8e3
+}
+#dllist LI .price A:hover {
+	BACKGROUND: #c7261d; COLOR: #fff
+}
+#dllist LI .ipa A {
+	BACKGROUND: #4b5157; COLOR: #e9e8e3
+}
+#dllist LI .ipa A:hover {
+	BACKGROUND: #c7261d; COLOR: #fff
+}
+#dllist LI .rar A {
+	BACKGROUND: #412356; COLOR: #e9e8e3
+}
+#dllist LI .rar A:hover {
+	BACKGROUND: #c7261d; COLOR: #fff
+}
+#dllist LI SPAN {
+	DISPLAY: block; FLOAT: left
+}
+#dllist LI .dlname {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 10px; WIDTH: 80px; PADDING-RIGHT: 10px; COLOR: #0080ff; PADDING-TOP: 6px
+}
+#dllist LI .dlerr A {
+	PADDING-BOTTOM: 6px; MARGIN: 0px 0px 0px 20px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; DISPLAY: block; FLOAT: left; COLOR: #ffe037; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 6px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px
+}
+#dllist LI .dlerr A:hover {
+	BACKGROUND: #ffe037; COLOR: #000
+}
+#dllist LI .dlhref {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 6px; PADDING-LEFT: 10px; WIDTH: 300px; PADDING-RIGHT: 10px; DISPLAY: block; WHITE-SPACE: nowrap; FLOAT: right; OVERFLOW: hidden; PADDING-TOP: 6px
+}
+#dllist .uplink A {
+	COLOR: #ff0072; MARGIN-LEFT: 30px; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+#dlshare {
+	DISPLAY: none
+}
+#dlshare {
+	BORDER-BOTTOM: #e0d699 1px solid; BORDER-LEFT: #e0d699 1px solid; PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; MARGIN-BOTTOM: 15px; BACKGROUND: #fff8cb; FONT-SIZE: 12px; BORDER-TOP: #e0d699 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #e0d699 1px solid; PADDING-TOP: 15px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px
+}
+#dlshare .dlinput {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; HEIGHT: 20px; PADDING-TOP: 5px
+}
+#dlshare SELECT {
+	WIDTH: 100px
+}
+#dlshare #share-url {
+	WIDTH: 430px
+}
+#dlshare #share-name {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; WIDTH: 430px; BORDER-TOP-STYLE: none; BACKGROUND: #fff8cb; BORDER-RIGHT-STYLE: none
+}
+#dlshare BUTTON {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: 70px; PADDING-RIGHT: 5px; FLOAT: right; PADDING-TOP: 5px
+}
+#dlshare .dlintro {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: left; COLOR: #7d7d7d; FONT-WEIGHT: normal; PADDING-TOP: 10px; widht: 400px
+}
+#report INPUT.reason {
+	MARGIN-BOTTOM: 8px
+}
+#report INPUT.errbtn {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 6px
+}
+.page-title {
+	BORDER-BOTTOM: #e5e7e9 2px solid; PADDING-BOTTOM: 15px; MARGIN: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; FONT-FAMILY: Î¢ÈíÑÅºÚ; FONT-SIZE: 18px; PADDING-TOP: 15px
+}
+#itunes-form {
+	BORDER-BOTTOM: #e0d699 1px solid; BORDER-LEFT: #e0d699 1px solid; PADDING-BOTTOM: 15px; MARGIN: 15px 30px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; BACKGROUND: #fff8cb; FONT-SIZE: 12px; BORDER-TOP: #e0d699 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #e0d699 1px solid; PADDING-TOP: 15px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px
+}
+#status {
+	MARGIN: 5px 15px 5px 0px; WIDTH: 16px; DISPLAY: block; FLOAT: right; HEIGHT: 16px
+}
+.s-load {
+	BACKGROUND: url(images/css/loader.gif)
+}
+.s-right {
+	BACKGROUND: url(images/css/right.png)
+}
+.s-err {
+	BACKGROUND: url(images/css/err.png)
+}
+INPUT.sharebtn {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 10px; WIDTH: 90px; PADDING-RIGHT: 10px; PADDING-TOP: 6px
+}
+.uploadinfo {
+	BORDER-BOTTOM: #e0d699 1px solid; BORDER-LEFT: #e0d699 1px solid; PADDING-BOTTOM: 15px; MARGIN: 15px 30px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; BACKGROUND: #fff8cb; FONT-SIZE: 12px; BORDER-TOP: #e0d699 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #e0d699 1px solid; PADDING-TOP: 15px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px
+}
+.uploadinfo {
+	LINE-HEIGHT: 2.5em
+}
+.pages {
+	
+}
+.pages UL {
+	MARGIN:10px; FLOAT: right
+}
+.pages UL LI {
+	FLOAT: left
+}
+.pages UL LI A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 26px; MARGIN: 0px 5px; WIDTH: 30px; DISPLAY: block; FLOAT: left; HEIGHT: 26px; FONT-SIZE: 14px
+}
+.pages A.pre {
+	WIDTH: 74px; BACKGROUND: url(images/css/page-btn.gif)
+}
+.pages A.pre:hover {
+	WIDTH: 74px; BACKGROUND: url(images/css/page-btn.gif) 0px -26px
+}
+.pages A.next {
+	WIDTH: 74px; BACKGROUND: url(images/css/page-btn.gif) right 0px; FLOAT: right
+}
+.pages A.next:hover {
+	WIDTH: 74px; BACKGROUND: url(images/css/page-btn.gif) right -26px
+}
+.pages A.select {
+	BACKGROUND: url(images/css/page-select.gif) #616060; COLOR: #fff; FONT-WEIGHT: bold
+}
+#gotop {
+	Z-INDEX: 99; POSITION: fixed; WIDTH: 49px; BOTTOM: 150px; DISPLAY: none; BACKGROUND: url(images/css/go-top.png) no-repeat center center; HEIGHT: 49px; RIGHT: -99px
+}
+#gotop A {
+	TEXT-INDENT: -999px; WIDTH: 49px; DISPLAY: block; HEIGHT: 49px; OVERFLOW: hidden
+}
+.search-none {
+	BORDER-BOTTOM: #eaeaea 1px solid; TEXT-ALIGN: center; PADDING-BOTTOM: 15px; LINE-HEIGHT: 150px; MARGIN: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; FONT-FAMILY: Î¢ÈíÑÅºÚ; HEIGHT: 150px; FONT-SIZE: 16px; PADDING-TOP: 15px
+}
+.search-none BIG {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #ca2d22; FONT-SIZE: 18px; PADDING-TOP: 0px
+}
+.breadcrumb {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; PADDING-TOP: 18px
+}
+.breadcrumb LI {
+	PADDING-RIGHT: 10px; FLOAT: left; MARGIN-RIGHT: 5px
+}
+.breadcrumb LI A {
+	BORDER-BOTTOM: #28c2f4 1px dotted; PADDING-BOTTOM: 2px; MARGIN-RIGHT: 10px
+}
+.breadcrumb LI.last A {
+	BORDER-BOTTOM-STYLE: none; COLOR: #555
+}
+.score {
+	POSITION: relative; MARGIN: 10px auto; WIDTH: 372px; BACKGROUND: url(images/css/score.gif) no-repeat; HEIGHT: 55px
+}
+.score EM {
+	POSITION: absolute; FONT-FAMILY: Helvetica, Arial,sans-serif; COLOR: #555; FONT-SIZE: 36px; FONT-WEIGHT: bold; TOP: 11px; LEFT: 15px; text-shadow: 0 1px 2px #fff
+}
+.score DIV {
+	POSITION: absolute; BOTTOM: 13px; FONT-FAMILY: Î¢ÈíÑÅºÚ; COLOR: #777; FONT-WEIGHT: bold; LEFT: 125px
+}
+.score DIV SPAN {
+	PADDING-RIGHT: 20px; COLOR: #999; FONT-WEIGHT: normal
+}
+.cfns {
+	MARGIN: 5px 0px 0px; FLOAT: left
+}
+.fav {
+	FLOAT: left; MARGIN-RIGHT: 20px
+}
+.share {
+	FLOAT: left; MARGIN-RIGHT: 20px
+}
+.fav A {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 22px; PADDING-RIGHT: 3px; DISPLAY: block; BACKGROUND: url(images/css/favnshare.gif) no-repeat 3px 0px; COLOR: #999; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px
+}
+.share A {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 22px; PADDING-RIGHT: 3px; DISPLAY: block; BACKGROUND: url(images/css/favnshare.gif) no-repeat 3px 0px; COLOR: #999; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px
+}
+.fav A:hover {
+	BORDER-BOTTOM: #3fb0ff 1px solid; BORDER-LEFT: #3fb0ff 1px solid; BACKGROUND-POSITION: 3px -19px; COLOR: #0081db; BORDER-TOP: #3fb0ff 1px solid; BORDER-RIGHT: #3fb0ff 1px solid
+}
+.share A:hover {
+	BORDER-BOTTOM: #3fb0ff 1px solid; BORDER-LEFT: #3fb0ff 1px solid; BACKGROUND-POSITION: 3px -19px; COLOR: #0081db; BORDER-TOP: #3fb0ff 1px solid; BORDER-RIGHT: #3fb0ff 1px solid
+}
+.fav .select {
+	BORDER-BOTTOM: #3fb0ff 1px solid; BORDER-LEFT: #3fb0ff 1px solid; BACKGROUND-POSITION: 3px -19px; COLOR: #0081db; BORDER-TOP: #3fb0ff 1px solid; BORDER-RIGHT: #3fb0ff 1px solid
+}
+.share A {
+	BACKGROUND-POSITION: 3px -38px
+}
+.share A:hover {
+	BACKGROUND-POSITION: 3px -57px
+}
+#footer {
+	PADDING-BOTTOM: 50px; LINE-HEIGHT: 22px; PADDING-LEFT: 50px; PADDING-RIGHT: 50px; PADDING-TOP: 50px
+}
+.s-album {
+	PADDING-BOTTOM: 30px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; PADDING-TOP: 30px
+}
+.s-album IMG {
+	WIDTH: 277px; MARGIN-BOTTOM: 10px; HEIGHT: 98px
+}
+.lowinfo {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 7px; MARGIN: 5px 5px 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; BACKGROUND: #b2c4d1; COLOR: #000; FONT-SIZE: 14px; BORDER-TOP: #ccc 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px
+}
+.page-massage {
+	BORDER-BOTTOM: #e5e7e9 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #e5e7e9 1px solid; MIN-HEIGHT: 600px; WIDTH: 978px; BACKGROUND: url(images/404.png) #fff no-repeat 780px 400px; CLEAR: both; BORDER-TOP: #e5e7e9 1px solid; BORDER-RIGHT: #e5e7e9 1px solid; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px
+}
+.page-massage H1 {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 35px; PADDING-RIGHT: 25px; FONT-FAMILY: Î¢ÈíÑÅºÚ; COLOR: #000; FONT-SIZE: 28px; FONT-WEIGHT: normal; PADDING-TOP: 35px
+}
+.page-massage H5 {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 35px; PADDING-RIGHT: 25px; FONT-SIZE: 14px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.page-massage EM {
+	BORDER-BOTTOM: #aaa 1px dotted; PADDING-BOTTOM: 2px; FONT-STYLE: normal; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 2px
+}
